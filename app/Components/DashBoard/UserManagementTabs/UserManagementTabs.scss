@@ -1,0 +1,47 @@
+@import "../../../Style.scss";
+
+.bnrFormAccWrap {
+    max-width: 100%;
+}
+
+.UserManagementTabWrap{
+    @extend %fullWrap; 
+    @include paddingLeftRight(10px);
+    .UserManagementHeadWrap{
+      @extend %fullWrap;
+  
+      .UserManagementHead {
+        @include paraHev_fluid(14px, #ccc , 20px);
+        width:12.33%;
+        float: left;
+        text-align: center;
+        cursor: pointer;
+        &:first-child{
+          text-align: left;
+        }
+        &:last-child{
+          text-align: right;
+        }
+        span{
+          display: inline-block;
+          padding-bottom: 5px;
+        }
+      }
+      .UserManagementHead.react-tabs__tab--selected{
+        span{
+          padding-bottom: 3px;
+          color: #4A90E2;
+          border-bottom:2px solid #4A90E2;
+        }
+      }
+    }
+  }
+
+  .UserManagementAddUserBtn{
+      float: right;
+  }
+
+  .AddUserBtn{
+      border-radius: 5px;
+      height: 24px;	width: 96px;
+  }

@@ -1,0 +1,26 @@
+.menuInnerWrapper {
+  padding-left: 12px;
+}
+.menuItemList {
+  padding: 17px;
+  border-bottom: 1px solid white;
+  color: white
+}
+#mainWrap {
+  position: relative !important;
+  z-index: 3 !important;
+}
+/* #footerWrap {
+  position: relative !important;
+  z-index: 3 !important;
+} */
+/* .linkSideMenu {
+  color: red;
+} */
+/* a:hover {color:#FF00FF;} */
+/* a, a:visited, a:hover, a:active {
+  color: inherit;
+} */
+a, a:hover {
+  color: inherit;
+}

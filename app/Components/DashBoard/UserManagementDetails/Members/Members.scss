@@ -1,0 +1,8 @@
+@import "../../../../Style.scss";
+
+.profileWrapList li{@extend %font-helvetica;display: inline-block;padding-left: 10%;padding-top: 35px;box-sizing: border-box; height: 83px;max-width: 251px;background-color:whitesmoke;width:100%}
+
+.fa-user-circle{ font-size: 18px}
+
+.userWrapList li{@extend %font-helvetica;display: inline-block;padding-left: 10%;padding-top: 35px;box-sizing: border-box; height: 83px;max-width: 251px;background-color:whitesmoke;width:100%}
+
